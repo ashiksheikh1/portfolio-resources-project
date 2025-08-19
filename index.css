@@ -1,0 +1,210 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#bk-img{
+    background-image: url("../my-protfolio-resources-project/images/developer.png" ),url("../my-protfolio-resources-project/images/hardy.png") ;
+    background: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 200px;
+}
+.nav-taitle{
+font-size: 45px;
+font-weight: 800;
+}
+.prtfolio-flex{
+display: flex;
+align-items: center;
+
+}
+.prtfolio-flex li a{
+text-decoration: none;
+}
+
+.btn-primary{
+    background-color: #fd6e0a;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.btn-Contact{
+    font-weight: bold;
+    border-radius: 4px;
+     padding: 14px 30px;
+     font-size: 20px;
+     color: #fd6e0a;
+     border: 1px solid #fd6e0a;
+}
+.banner-img{
+    width: 584;
+    
+}
+/* style banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    max-width: 580px;
+    margin-left: 150px;
+}
+.banner-greeting{
+    font-size: 25px;
+    font-weight: 600;
+      color: #474747;
+}
+.banner-taitle{
+     font-size: 40px;
+    font-weight: 700;
+      color: #474747;
+}
+.banmner-discription{
+     font-size: 15px;
+    font-weight: 400;
+      color: #474747;
+}
+
+
+.prtfolio-flex li {
+list-style: none;
+margin-right: 50px;
+}
+.dark-2{
+    color: #474747;
+}
+.name-flex{
+    display: flex;
+
+}
+/* about */
+.about{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-main{
+    border-radius: 10px;
+    padding: 100px 110px;
+    text-align: center;
+    margin-top: 130px;
+    background-color: bisque;
+}
+.about-section{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.about-discription{
+     font-size: 18px;
+     font-weight: 400;
+     color: #757575;
+}
+.background-bg{
+    background-color: #FFF8F3;
+}
+/* shaare */
+.text-center{
+    text-align: center;
+}
+.what-do{
+    margin-top: 100px;
+}
+.main-react{
+    display: flex;
+    gap: 12px;
+    margin-top: 100px;
+
+}
+.react-padding{
+    padding: 20px;
+    box-shadow: 0px 6px 30px 0px rgba(30, 30, 30, 1);
+}
+
+
+.name-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+/* resume My Education */
+.summry{
+    margin-top: 110px;
+}
+.My-Education{
+display: flex;
+gap: 22px;
+
+}
+.My-Education h2{
+font-weight: bold;
+font-size: 30px;
+color: #474747;
+}
+.My-Education h3{
+font-weight: bold;
+font-size: 24px;
+color: #474747;
+}
+.My-Education h4{
+font-weight: 600;
+font-size: 15px;
+color: #474747;
+}
+.My-Education p{
+font-weight: 400;
+font-size: 13px;
+color: #474747;
+}
+.resume-dowenload{
+    margin-top: 30px;
+   
+}
+
+
+.footer-flex{
+    display: flex;
+     background-color: bisque;
+    gap: 100px;
+    padding: 111px 112px;
+
+}
+.footer h2{
+font-weight: 700;
+font-size: 33px;
+color: #474747;
+}
+.footer p{
+font-weight: 400;
+font-size: 18px;
+color: #474747;
+}
+.icon-flex{
+    display: flex;
+    
+}
+.message input[type="text"], input[type="email"], textarea{
+   height: 40px;
+   border-radius: 5px;
+   background-color: white;
+   display: block;
+   width: 100%;
+   margin-bottom: 16px;
+   padding: 10px 17px;
+    border: none;
+ 
+}
