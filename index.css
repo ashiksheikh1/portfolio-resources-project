@@ -177,6 +177,7 @@ color: #474747;
 
 
 .footer-flex{
+    margin-top: 100px;
     display: flex;
      background-color: bisque;
     gap: 100px;
@@ -207,4 +208,17 @@ color: #474747;
    padding: 10px 17px;
     border: none;
  
+}
+@media screen and (max-width:576px) {
+    .main-react,.name-flex,  .My-Education, .nav, .banner, .footer-flex{
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-direction: column;
+    }
+    .footer-flex, .banner-text,.about-main{
+        padding: 20px;
+    }
+  .message input[type="text"], input[type="email"], textarea,.about-main{
+    width: calc(100% - 40px);
+  }
+    
 }
